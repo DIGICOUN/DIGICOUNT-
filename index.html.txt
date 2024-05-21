@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #001f3f;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #0074D9;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .biography, .portfolio, .blog, .photos, .links {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #001f3f;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Page Personnelle</h1>
+        <p>Comptabilité, Création d'entreprises, Fiscalité, Juridique</p>
+    </header>
+    <nav>
+        <a href="#biography">Biographie</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#photos">Photos</a>
+        <a href="#links">Liens</a>
+    </nav>
+    <div class="container">
+        <section id="biography" class="biography">
+            <h2>Biographie</h2>
+            <p>Je suis passionné par la comptabilité, la création d'entreprises, la fiscalité et le juridique. Mon parcours professionnel m'a permis de développer une expertise dans ces domaines et d'accompagner de nombreuses entreprises dans leur croissance.</p>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio de Projets</h2>
+            <p>Voici quelques-uns des projets sur lesquels j'ai travaillé :</p>
+            <ul>
+                <li>Projet A - Description du projet A</li>
+                <li>Projet B - Description du projet B</li>
+                <li>Projet C - Description du projet C</li>
+            </ul>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <p>Bienvenue sur mon blog où je partage mes réflexions et mes conseils sur la comptabilité, la création d'entreprises, la fiscalité et le juridique.</p>
+        </section>
+        <section id="photos" class="photos">
+            <h2>Photos</h2>
+            <p>Voici quelques photos illustrant mon travail et mes passions :</p>
+            <img src="photo1.jpg" alt="Photo 1" style="width:100%;">
+            <img src="photo2.jpg" alt="Photo 2" style="width:100%;">
+        </section>
+        <section id="links
+" class="links">
+            <h2>Liens</h2>
+            <p>Retrouvez-moi sur les réseaux sociaux :</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/votreprofil" target="_blank">LinkedIn</a></li>
+                <li><a href="https://twitter.com/votreprofil" target="_blank">Twitter</a></li>
+                <li><a href="https://www.facebook.com/votreprofil" target="_blank">Facebook</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 - Votre Nom. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
